@@ -1,5 +1,5 @@
 Name:          postgresql-typed
-Version:       0.6.2.5
+Version:       0.6.2.6
 Cabal-Version: >= 1.10
 License:       BSD3
 License-File:  COPYING
@@ -25,7 +25,7 @@ extra-source-files: README.md
 
 source-repository head
   type:     git
-  location: git://github.com/dylex/postgresql-typed
+  location: https://github.com/dylex/postgresql-typed
 
 Flag md5
   Description: Enable md5 password authentication method.
