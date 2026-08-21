@@ -1,5 +1,5 @@
 Name:          postgresql-typed
-Version:       0.6.2.6
+Version:       0.6.2.7
 Cabal-Version: >= 1.10
 License:       BSD3
 License-File:  COPYING
@@ -64,7 +64,7 @@ Flag crypton
 
 Flag ram
   Description: Use ram rather than memory (only if crypton).
-  Default: False
+  Default: True
 
 Library
   default-language:    Haskell2010
