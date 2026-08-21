@@ -121,7 +121,7 @@ Library
     if flag(scientific)
       Build-Depends: scientific >= 0.3
   if flag(aeson)
-    Build-Depends: aeson >= 0.7 && < 2.3
+    Build-Depends: aeson >= 0.7 && < 2.4
   if flag(HDBC)
     Build-Depends: HDBC >= 2.2
     Exposed-Modules:
